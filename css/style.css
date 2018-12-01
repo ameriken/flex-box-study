@@ -76,6 +76,16 @@ main ul li{
 	width: 200px;
 }
 
+
+#sample7 li {
+	width: 200px;
+}
+
+#sample7 {
+	display:flex;
+	flex-wrap:wrap;
+    justify-content: flex-end;
+}
 /* ここまで記述 */
 
 footer{
