@@ -42,3 +42,14 @@ flex-wrap:wrap
 
 ![WS000713.JPG](.\img\WS000713.JPG)
 
+## 真ん中にもしたいって人はいるよねってことで`justify-content:flex-center`
+
+![WS000714.JPG](.\img\WS000714.JPG)
+
+※ほかにも3個ほど、別の値があるので調べてみてください
+
+
+# sample9
+## liタグの一番最初だけ高さをあげてみました。
+
+![WS000715.JPG](.\img\WS000715.JPG)

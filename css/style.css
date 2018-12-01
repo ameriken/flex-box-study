@@ -56,9 +56,9 @@ main ul{
 main ul li{
 	background: #a6b1ef;
 	border: 1px solid #000;
-	height: 198px;
+	height: 200px;
 	text-align: center;
-	line-height: 198px;
+	line-height: 200px;
 }
 
 /* ここから記述 */
@@ -85,6 +85,17 @@ main ul li{
 	display:flex;
 	flex-wrap:wrap;
     justify-content: center;
+}
+
+#sample9 li {
+	width: 200px;
+}
+
+#sample9 li:first-of-type {
+    height:300px;
+}
+#sample9 {
+	display:flex;
 }
 /* ここまで記述 */
 
