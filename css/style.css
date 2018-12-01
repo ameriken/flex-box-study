@@ -176,11 +176,15 @@ main ul li{
 
 #sample17 {
 	display:flex;
-	flex-wrap:wrap;
+    flex-shrink:1;
 
 }
 #sample17 li {
 	flex-basis:200px;
+}
+
+#sample17 li:nth-child(2) {
+    flex-shrink:3;
 }
 /* ここまで記述 */
 
