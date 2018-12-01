@@ -96,6 +96,7 @@ main ul li{
 }
 #sample9 {
 	display:flex;
+    align-items: flex-end;
 }
 /* ここまで記述 */
 
