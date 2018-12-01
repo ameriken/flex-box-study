@@ -150,6 +150,11 @@ main ul li{
 	display:flex;
 	flex-wrap: wrap;
 }
+
+#sample13 {
+	display:flex;
+    flex-wrap:wrap;
+}
 /* ここまで記述 */
 
 footer{
