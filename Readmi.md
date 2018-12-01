@@ -108,7 +108,7 @@ flex-wrap:wrap
 ※注意点として、`order`プロパティで値を指定しない場合は値が0となってしまうので、指定をする際はすべて上記のように指定してあげる必要があります。
 
 
-## sample13
+# sample13
 ## 今まではwidthで指定してたけど、flex-boxの中では`flex-basis`で幅が指定できます。
 
 
@@ -117,3 +117,22 @@ flex-wrap:wrap
 ![WS000721.JPG](.\img\WS000721.JPG)
 
 ※かなり柔軟設計になります。
+
+# sample15
+## 余白を空けたくない！！！あなた。`flex-glow`をつかいます。
+
+![WS000722.JPG](.\img\WS000722.JPG)
+
+
+![WS000723.JPG](.\img\WS000723.JPG)
+## ２番目のフレックスアイテムだけ広くしたい場合は、`flex-grow:5`などして調整ができます。(これ結構便利です)
+
+![WS000725.JPG](.\img\WS000725.JPG)
+
+今回の例だとこんな感じ
+```
+#sample15 li:nth-child(2) {
+	flex-basis:100px;
+	flex-grow: 5;
+}
+```
