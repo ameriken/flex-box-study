@@ -63,6 +63,10 @@ main ul li{
 
 /* ここから記述 */
 
+#sample1 li {
+	width: 200px;
+}
+
 /* ここまで記述 */
 
 footer{
