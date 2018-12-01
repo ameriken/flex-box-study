@@ -164,6 +164,10 @@ main ul li{
     display:flex;
 
 }
+#sample15 li {
+	flex-basis:100px;
+	flex-grow: 1;
+}
 /* ここまで記述 */
 
 footer{
