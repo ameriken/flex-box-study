@@ -98,6 +98,15 @@ main ul li{
 	display:flex;
     align-items: flex-end;
 }
+
+#sample11 li {
+	width: 200px;
+}
+
+#sample11 {
+	display:flex;
+	flex-wrap: wrap;
+}
 /* ここまで記述 */
 
 footer{
