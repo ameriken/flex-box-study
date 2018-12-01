@@ -96,7 +96,50 @@ main ul li{
 }
 #sample9 {
 	display:flex;
-    align-items: flex-end;
+}
+
+#sample11 li {
+	width: 200px;
+}
+
+#sample11 {
+	display:flex;
+    flex-wrap:wrap;
+}
+
+#sample11 li:first-of-type {
+	order:11
+}
+
+#sample11 li:nth-child(2) {
+	order:10
+}
+#sample11 li:nth-child(3) {
+	order:9
+}
+#sample11 li:nth-child(4) {
+	order:8
+}
+#sample11 li:nth-child(5) {
+	order:7
+}
+#sample11 li:nth-child(6) {
+	order:6
+}
+#sample11 li:nth-child(7) {
+	order:5
+}
+#sample11 li:nth-child(8) {
+	order:4
+}
+#sample11 li:nth-child(9) {
+	order:3
+}
+#sample11 li:nth-child(10) {
+	order:2
+}
+#sample11 li:last-of-type {
+    order:1
 }
 
 #sample11 li {

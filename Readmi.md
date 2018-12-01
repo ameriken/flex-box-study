@@ -53,3 +53,59 @@ flex-wrap:wrap
 ## liタグの一番最初だけ高さをあげてみました。
 
 ![WS000715.JPG](.\img\WS000715.JPG)
+## 上揃えが嫌な人！！`align-items: flex-end;`こうなります。
+![WS000716.JPG](.\img\WS000716.JPG)
+
+※割愛しますが、これも色々できます、真ん中寄席にしたり。。。
+
+
+## sample11
+## ボックスの順番指定するには`order`を使います。
+
+
+![WS000718.JPG](.\img\WS000718.JPG)
+
+![WS000719.JPG](.\img\WS000719.JPG)
+```
+#sample11 li:first-of-type {
+	order:11
+}
+
+#sample11 li:nth-child(2) {
+	order:10
+}
+#sample11 li:nth-child(3) {
+	order:9
+}
+#sample11 li:nth-child(4) {
+	order:8
+}
+#sample11 li:nth-child(5) {
+	order:7
+}
+#sample11 li:nth-child(6) {
+	order:6
+}
+#sample11 li:nth-child(7) {
+	order:5
+}
+#sample11 li:nth-child(8) {
+	order:4
+}
+#sample11 li:nth-child(9) {
+	order:3
+}
+#sample11 li:nth-child(10) {
+	order:2
+}
+#sample11 li:last-of-type {
+    order:1
+}
+```
+
+こんな感じでやってみました。
+
+※注意点として、`order`プロパティで値を指定しない場合は値が0となってしまうので、指定をする際はすべて上記のように指定してあげる必要があります。
+
+
+
