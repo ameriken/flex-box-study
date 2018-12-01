@@ -159,6 +159,11 @@ main ul li{
 #sample13 li{
 	flex-basis:198px;
 }
+
+#sample15 {
+    display:flex;
+
+}
 /* ここまで記述 */
 
 footer{
