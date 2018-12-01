@@ -1,6 +1,6 @@
 # flex-boxについて書きます
 
-#sample1
+# sample1
 
 ## sample1単純に幅を指定してみました。
 ![WS000704.JPG](.\img\WS000704.JPG)
@@ -59,7 +59,7 @@ flex-wrap:wrap
 ※割愛しますが、これも色々できます、真ん中寄席にしたり。。。
 
 
-## sample11
+# sample11
 ## ボックスの順番指定するには`order`を使います。
 
 
@@ -87,7 +87,7 @@ flex-wrap:wrap
 	order:6
 }
 #sample11 li:nth-child(7) {
-	order:5
+aporder:5
 }
 #sample11 li:nth-child(8) {
 	order:4
