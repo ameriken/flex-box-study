@@ -168,6 +168,11 @@ main ul li{
 	flex-basis:100px;
 	flex-grow: 1;
 }
+
+#sample15 li:nth-child(2) {
+	flex-basis:100px;
+	flex-grow: 5;
+}
 /* ここまで記述 */
 
 footer{
